@@ -4,7 +4,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify'
 
 const Create = () => {
-    const { register, handleSubmit, formState: { errors }, reset, triggers } = useForm();
+    const { register, handleSubmit, formState: { errors }, reset } = useForm();
     const onSubmit = (e) => {
         var obj = {
             "name": e.userName,
