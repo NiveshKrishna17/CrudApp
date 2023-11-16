@@ -1,8 +1,6 @@
 import React from 'react';
 import Create from './Components/Create';
-import Delete from './Components/Delete';
 import Read from './Components/Read';
-import Update from './Components/Update';
 
 const Home = () => {
     return (
@@ -11,10 +9,6 @@ const Home = () => {
             <hr/>
             <Read />
             <hr/>
-            <Update />
-            <hr />
-            <Delete />
-            <hr />
         </div>
     )
 }
